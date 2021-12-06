@@ -5,7 +5,7 @@ A context contributor utility which provides utility methods to access articles 
 
 1. Deploy liferay-context-contributor
 1. Determine `uuid`, `groupId`, and `privateLayout`flag of the relevant layout, e.g.
-    ```bash
+    ```sql
     mysql> SELECT groupId, uuid_, privateLayout, friendlyURL FROM Layout;
     +---------+--------------------------------------+---------------+---------------------------------------+
     | groupId | uuid_                                | privateLayout | friendlyURL                           |
